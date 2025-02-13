@@ -1,0 +1,41 @@
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.so
+*.log
+
+# Entornos virtuales (si usamos virtualenv)
+venv/
+env/
+*.venv/
+
+# Configuración de dependencias
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Archivos de configuración sensibles
+.env
+*.env
+
+# Archivos de caché de Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos generados por Docker
+*.tar
+*.pid
+*.swp
+
+# Bases de datos locales
+*.sqlite3
+*.db
+
+# Logs y archivos temporales
+*.log
+*.tmp
